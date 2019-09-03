@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         NewsRetrofitService service = retrofit.create(NewsRetrofitService.class);
-        Call<Response> callNews = service.getArticles("ar", "985f0352c6c44bbdbd8be87b223bd3f1");
+        Call<Response> callNews = service.getArticles("ar", "985................3f1");
 
         callNews.enqueue(new Callback<Response>() {
             @Override
